@@ -1,1 +1,2 @@
+client_side/weights/yolov4.weights filter=lfs diff=lfs merge=lfs
 client_side/weights/yolov4.weights filter=lfs diff=lfs merge=lfs -text
