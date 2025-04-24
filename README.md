@@ -1,8 +1,10 @@
 # Threat-Detection (YOLOv8)
 
 ## Screenshots
-![App Screenshot](server_side\static\images\57c3a1e7-0ec7-47a6-8632-caa8aa901e33)
-![App Screenshot](assets/img2.png)
+![App Screenshot](img/img1.jpeg)
+
+## Workflow
+![App Screenshot](img/img2.png)
 
 # How to run?
 ### STEPS:
