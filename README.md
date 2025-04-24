@@ -1,7 +1,7 @@
 # Threat-Detection (YOLOv8)
 
 ## Screenshots
-![App Screenshot](img/img1.jpeg)
+![App Screenshot](img/img1.png)
 
 ## Workflow
 ![App Screenshot](img/img2.png)
