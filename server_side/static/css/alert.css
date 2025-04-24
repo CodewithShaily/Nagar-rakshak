@@ -1,0 +1,130 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background: #121212; /* Darker Background */
+    color: #e0e0e0; /* Light text for contrast */
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #1f1f1f; /* Darker navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+    color: #b0b0b0 !important;
+    text-decoration: none;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    margin: 20px 0;
+    background: #1e1e2f; /* Darker table background */
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8); /* Deeper shadow for box */
+}
+
+.table th {
+    background: #2e2e44; /* Slightly lighter for headers */
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    padding: 15px;
+    font-size: 14px;
+    color: #e0e0e0;
+    border-bottom: 1px solid #383850; /* Subtle row dividers */
+    background: #1c1c2b; /* Darker cell background */
+}
+
+.table tr:nth-child(odd) td {
+    background: #232332; /* Alternate row color */
+}
+
+.table tr:hover td {
+    background: #33334d; /* Highlight hover effect */
+    color: #ffffff;
+}
+
+/* Image Styling */
+.img-fluid {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Stronger shadow for images */
+    margin: 10px 0;
+}
+
+/* Container Styles */
+.limiter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container-login100 {
+    background: #1b1b2f; /* Darker container background */
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8); /* Enhanced shadow */
+    padding: 40px;
+    width: 90%;
+    max-width: 1200px;
+    border: 1px solid #33334d; /* Subtle border for the container */
+}
+
+.wrap-login100 {
+    border: 1px solid #444457; /* Slightly lighter border for wrap */
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Alert Box Styling */
+#messages {
+    background-color: #2e2e44;
+    color: #ffffff;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 20px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Stronger shadow for messages */
+}
+
+/* Additional Enhancements */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+a {
+    color: #56aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #82caff;
+    text-decoration: underline;
+}
